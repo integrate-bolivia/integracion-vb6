@@ -1,0 +1,2 @@
+{"query": "mutation FACTURA{facturaCompraVentaCreate(notificacion:false,entidad:{codigoSucursal:0,codigoPuntoVenta:0}input:{cliente:{codigoCliente:\"3382430018\",email:\"integrate.bolivia@gmail.com\"}actividadEconomica:\"620000\"codigoMetodoPago:1,descuentoAdicional:0,codigoMoneda:1,detalleExtra:\"<p></p>\",detalle:[{codigoProductoSin:\"83131\",codigoProducto:\"SRV-005\",descripcion:\"Instalaciondeservidores\",cantidad:1,unidadMedida:57,precioUnitario:1.05,montoDescuento:0.2}]}){cuf state numeroFactura representacionGrafica{pdf xml sin rollo}}}"}
+
