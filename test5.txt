@@ -1,0 +1,8 @@
+{
+    "query": "mutation LOGIN($shop:String!,$email:String!,$password:String!){login(shop:$shop,email:$email,password:$password){token,refreshToken}}",
+    "variables": {
+        "shop": "{{shop}}",
+        "email": "{{email}}",
+        "password": "{{password}}"
+    }
+}
